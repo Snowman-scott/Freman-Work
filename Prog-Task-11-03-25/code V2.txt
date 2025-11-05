@@ -1,0 +1,35 @@
+Fod = ["coco pops", "Cornflakes","Crunchy nut clusters","Fruit n fiber","Rice Krispies","Special K","Sugar puffs","Weetabix"]
+Found = "False"
+print(Found)
+
+
+R = len(Fod) - 1
+L = 0
+M = int(len(Fod)) / 2
+print(R, M, len(Fod))
+
+m = L + R / 2
+print(m)
+
+while Found == "false" and L <= R:
+  ui = input("Enter Fod you want to find: ")
+
+exit()
+
+
+Found = "False"
+Left = 0
+right = Fod.length - 1
+while Found == "false" and Left <= right:
+  mid = (Left + right) / 2
+  if Fod[mid] == "Rice Krispies":
+    Found = "True"
+    print(Found)
+  else:
+    if "Rice Krispies" > Fod[mid]:
+      Left = mid + 1
+    else:
+      right = mid - 1
+
+
+print(Found)

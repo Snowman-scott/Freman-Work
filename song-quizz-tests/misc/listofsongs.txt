@@ -1,0 +1,27 @@
+from artist import artists
+from songtitles import Songs_titles
+
+Songs = [
+    "Marty_mone " "Hit the diff",
+    "Marty-mone "" Steer the rear",
+    "Marty mone ""slip the clutch",
+    "the wurzzles ""I can drive a tractor",
+    "Eminem ""Mockingbird",
+    "INTERWORLD ""Metamorphisis",
+    "Glass animals ""Heatwaves",
+    "Bruno mars ""Locked out of hevan",
+    "Electric light orchestra ""Mr Blue Sky",
+    "The Killers ""Mr Brightside",
+    "oatis mcdonald ""Scarlet fire",
+    "C418 ""Beginning"
+]
+
+
+
+num = random.randint(0, len(Songs) - 1)
+question = Songs[num]
+Answer = Songs[num]
+question = question.lower()
+Q_list = question.split
+for word in Q_list():
+  print(word[0])

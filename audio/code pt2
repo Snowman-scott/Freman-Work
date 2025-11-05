@@ -1,0 +1,5 @@
+from replit import audio
+import time 
+
+audio.play_file("FNAF-Jumpscare-scream-Sound-Effect.mp3")
+time.sleep(6)

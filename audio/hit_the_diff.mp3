@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Redirect...</title>
+</head>
+<body>
+Redirecting...
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-68420562-7', 'auto');
+    ga('send', 'pageview', 'https://zone-telechargement-albums.com/a_r.php?k=YWxidW1zX2l0dW5lc3wwfDEwNjEzNjI5OTJ8ICB8d2FrZWxldC5jb20=');
+</script>
+
+
+<META HTTP-EQUIV="Refresh" Content="1; URL=https://zone-telechargement-albums.com/a_r.php?k=YWxidW1zX2l0dW5lc3wwfDEwNjEzNjI5OTJ8ICB8d2FrZWxldC5jb20=">
+</body>
+<script>
+
+// Break out of an iframe, if someone shoves your site
+// into one of those silly top-bar URL shortener things.
+//
+// Passing `this` and re-aliasing as `window` ensures
+// that the window object hasn't been overwritten.
+//
+// Example:
+//   var window = 'haha, punked!';
+//
+// Note: Probably unnecessary, but just for kicks.
+
+(function(window) {
+  if (window.location !== window.top.location) {
+    window.top.location = window.location;
+  }
+})(this);
+
+</script>
+</html>
